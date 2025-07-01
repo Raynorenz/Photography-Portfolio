@@ -24,7 +24,7 @@ body {
     background-color: var(--bg-color);
 }
 
-/*header*/
+/*------------------------------- header -------------------------------*/
 
 header {
     position: sticky;
@@ -35,7 +35,7 @@ header {
     padding: 8px 0px 8px 0px;  
 }
 
-/* scrolling behavior */
+/*------------------------------- scrolling behavior -------------------------------*/
 
 .scroll-down header{
     transform: translate3d(0, -100%, 0);
@@ -92,8 +92,6 @@ header {
     display: none;
 }
 
-
-
 .box2 {
     flex-grow: 1;
     display: flex;
@@ -117,7 +115,6 @@ header {
     text-decoration: none;
 
 }
-
 
 .box3 {
     flex-grow: 1;
@@ -150,9 +147,9 @@ h1 {
 }
 
 
-/*body*/
+/*------------------------------- body -------------------------------*/
 
-/*quote*/
+/*------------------------------- quote -------------------------------*/
 
 .land_pic {
     display: block;
@@ -260,7 +257,7 @@ h1 {
 }
 
 
-/*about me*/
+/*------------------------------- about me -------------------------------*/
 
 .about {
     background-color: var(--bg-color);
@@ -377,7 +374,8 @@ h1 {
     color: white; 
     background-color: var(--title-text-color);
 }
-/*brand collab?*/
+
+/*------------------------------- brand collab -------------------------------*/
 
 .brand_section {
     background-color: var(--bg-color);
@@ -414,7 +412,6 @@ h1 {
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    /*gap: 20px;*/
     width: 80%;
 }
 
@@ -424,7 +421,7 @@ h1 {
     background-color: white;
 }
 
-/*picture cut section*/
+/*------------------------------- picture cut section -------------------------------*/
 
 .picture_section {
     background-color: red;
@@ -444,10 +441,7 @@ h1 {
     object-position: center;
 }
 
-
-
-
-/*IG FEED*/
+/*------------------------------- IG FEED -------------------------------*/
 
 .insta_section {
     height: 580px;
@@ -512,7 +506,6 @@ h1 {
     width: 300px;
 }
 
-
 .insta_btn {
     padding: 20px;
 }
@@ -558,7 +551,7 @@ h1 {
     transition: ease 0.5s;
 }
 
-/* Contact section */
+/*------------------------------- Contact section -------------------------------*/
 
 
 
@@ -569,7 +562,6 @@ h1 {
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
-    /* background-color: var(--bg-color); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -578,7 +570,6 @@ h1 {
 .contact_box {
     height: 90%;
     width: 90vh;
-    /* background-color: pink; */
     display: flex;
     flex-direction: column;
 }
@@ -592,13 +583,11 @@ h1 {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    /* background-color: white; */
 }
 
 .inside_up {
     height: 100%;
     width: 100%;
-    /* background-color: red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -614,7 +603,7 @@ h1 {
     letter-spacing: 2px;
 }
 
-/* start behavior */
+/*------------------------------- start behavior -------------------------------*/
 
 .title {
     opacity: 0;
@@ -638,7 +627,7 @@ h1 {
     font-weight: 200;
 }
 
-/* start behavior */
+/*------------------------------- start behavior -------------------------------*/
 
 .yap {
     opacity: 0;
@@ -663,7 +652,6 @@ h1 {
 }
 
 .lower_box {
-    /* padding: 0px 10px 10px 10px; */
     height: 70%;
     width: 100%;
     padding: 40px;
@@ -676,7 +664,6 @@ h1 {
 .inside_down {
     height: 100%;
     width: 100%;
-    /* background-color: blue; */
     display: grid;
     grid-template-areas:
     "fullname fullname"
@@ -686,7 +673,6 @@ h1 {
 }
 
 .fullname {
-    /* background-color: yellow; */
     grid-area: fullname;
     display: flex;
     align-items: center;
@@ -703,7 +689,6 @@ h1 {
     gap: 7px;
     width: 100%;
     margin-bottom: 5px;
-    /* background-color: grey; */
     display: flex;
     align-items: baseline;
 }
@@ -735,7 +720,6 @@ h1 {
 }
 
 .email {
-    /* background-color: green; */
     grid-area: email;
     display: flex;
     align-items: start;
@@ -752,7 +736,6 @@ h1 {
     gap: 7px;
     width: 100%;
     margin-bottom: 5px;
-    /* background-color: grey; */
 }
 
 .email input {
@@ -764,7 +747,6 @@ h1 {
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* background-color: brown; */
     grid-area: message;
 }
 
@@ -778,7 +760,6 @@ h1 {
     gap: 7px;
     width: 100%;
     margin-bottom: 5px;
-    /* background-color: grey; */
 }
 
 .message textarea {
@@ -814,7 +795,7 @@ h1 {
 }
 
 
-/*footer*/
+/*------------------------------- footer -------------------------------*/
 
 .footer_section {
     height: 125px;
@@ -872,7 +853,7 @@ h1 {
     font-weight: 400;
 }
 
-/*transition scroll*/
+/*------------------------------- transition scroll -------------------------------*/
 
 .hidden {
     opacity: 0;
@@ -990,7 +971,7 @@ h1 {
     transform: translateX(0);
 }
 
-/*phone*/
+/*------------------------------- phone -------------------------------*/
 
 @media  only screen and (max-width: 768px) {
 
@@ -1014,7 +995,7 @@ h1 {
         transition: 0.5s ease;
     }
 
-/* scrolling behavior */
+/*------------------------------- scrolling behavior -------------------------------*/
 
     .scroll-down .box1_outside{
         transform: translate3d(0, -100%, 0);
@@ -1700,7 +1681,6 @@ h1 {
         padding: 0px 25px 10px 25px;
         height: 70%;
         width: 100%;
-        /* padding: 40px; */
     }
 }
 

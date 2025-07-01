@@ -162,7 +162,6 @@ h1 {
 .contact_page {
     height: 100vh;
     width: 100%;
-    /* background-color: var(--bg-color); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -171,7 +170,6 @@ h1 {
 .contact_box {
     height: 90%;
     width: 90vh;
-    /* background-color: pink; */
     display: flex;
     flex-direction: column;
 }
@@ -242,13 +240,7 @@ h1 {
     filter: blur(0);
 }
 
-
-
 /*lower box*/
-
-/* .contact-inputs::placeholder{
-    color: red;
-} */
 
 .contact-inputs{
     padding: 10px;
@@ -270,7 +262,6 @@ h1 {
 .inside_down {
     height: 100%;
     width: 100%;
-    /* background-color: blue; */
     display: grid;
     grid-template-areas:
     "fullname fullname"
@@ -280,7 +271,6 @@ h1 {
 }
 
 .fullname {
-    /* background-color: yellow; */
     grid-area: fullname;
     display: flex;
     align-items: center;
@@ -297,7 +287,6 @@ h1 {
     gap: 7px;
     width: 100%;
     margin-bottom: 5px;
-    /* background-color: grey; */
     display: flex;
     align-items: baseline;
 }
@@ -329,7 +318,6 @@ h1 {
 }
 
 .email {
-    /* background-color: green; */
     grid-area: email;
     display: flex;
     align-items: start;
@@ -346,7 +334,6 @@ h1 {
     gap: 7px;
     width: 100%;
     margin-bottom: 5px;
-    /* background-color: grey; */
 }
 
 .email input {
@@ -358,7 +345,6 @@ h1 {
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* background-color: brown; */
     grid-area: message;
 }
 
@@ -372,7 +358,6 @@ h1 {
     gap: 7px;
     width: 100%;
     margin-bottom: 5px;
-    /* background-color: grey; */
 }
 
 .message textarea {
@@ -846,14 +831,12 @@ h1 {
         align-items: center;
         flex-direction: column;
         text-align: center;
-        /* background-color: white; */
     }
 
     .lower_box {
         padding: 0px 20px 0px 20px;
         height: 70%;
         width: 100%;
-        /* padding: 40px; */
     }
 
     /* footer */

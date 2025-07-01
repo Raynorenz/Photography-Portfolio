@@ -92,8 +92,6 @@ header {
     display: none;
 }
 
-
-
 .box2 {
     flex-grow: 1;
     display: flex;
@@ -206,7 +204,6 @@ h1 {
 .about_img_box img{
     width: 570px;
     height: 720px;
-    /*padding-left: 60px;*/
     object-fit: cover;
     object-position: center;
 }
@@ -219,7 +216,6 @@ h1 {
 }
 
 .about_text_page {
-    /*padding-right: 80px;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -233,7 +229,6 @@ h1 {
     width: 100%;
     text-align: center;
     display: flex;
-    /*justify-content: space-evenly;*/
     justify-content: center;
     align-items: start;
     flex-direction: column;
@@ -724,7 +719,6 @@ h1 {
     .about_img_box img{
         width: 100%;
         height: 350px;
-        /*padding-left: 60px;*/
         object-fit: cover;
         object-position: center;
     }
@@ -740,7 +734,6 @@ h1 {
         width: 100%;
         text-align: center;
         display: flex;
-        /*justify-content: space-evenly;*/
         justify-content: center;
         align-items: center;
         flex-direction: column;
