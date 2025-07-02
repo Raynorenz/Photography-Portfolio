@@ -774,6 +774,10 @@ h1 {
         font-size: 13px;
         font-weight: 350;
     }
+
+    .footer_box1 .pages li {
+        padding: 0px 10px;
+    }
 }
 
 
