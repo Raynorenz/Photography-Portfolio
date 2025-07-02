@@ -1623,8 +1623,8 @@ h1 {
     }
 
     .insta_pics img {
-        width: 200px;
-        height: 200px;
+        width: 190px;
+        height: 190px;
         object-fit: cover;
         gap: 8px;
         cursor: pointer;
@@ -1655,6 +1655,10 @@ h1 {
     .footer_box1 li a {
         font-size: 13px;
         font-weight: 350;
+    }
+
+    .footer_box1 .pages li {
+        padding: 0px 10px;
     }
 
     /* contact section */
